@@ -59,7 +59,7 @@
               </el-checkbox>
             </el-col>
             <el-col :offset="6" :span="12">
-              <el-link style="float: right" type="primary">{{ t('login.forgetPassword') }}</el-link>
+              <!-- <el-link style="float: right" type="primary">{{ t('login.forgetPassword') }}</el-link> -->
             </el-col>
           </el-row>
         </el-form-item>
@@ -82,7 +82,7 @@
         mode="pop"
         @success="handleLogin"
       />
-      <el-col :span="24" style="padding-right: 10px; padding-left: 10px">
+      <!-- <el-col :span="24" style="padding-right: 10px; padding-left: 10px">
         <el-form-item>
           <el-row :gutter="5" justify="space-between" style="width: 100%">
             <el-col :span="8">
@@ -124,7 +124,7 @@
             />
           </div>
         </el-form-item>
-      </el-col>
+      </el-col> -->
     </el-row>
   </el-form>
 </template>
